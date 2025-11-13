@@ -85,7 +85,7 @@ width: 100%;
   }
   .profile-container {
     width: 100vw;
-    height: 100vh;
+    height: auto;
   }
   .outer {
     flex-direction: column;
@@ -120,6 +120,12 @@ width: 100%;
   .horizontal {
     width: 47.5%;
     height: 100%;
+  }
+  .card{
+    width: 90%;
+    background-color: white;
+    height: 80vw;
+    margin:20px;
   }
 }
 @media (min-width: 645px) {
