@@ -25,6 +25,7 @@ const Profile = () => {
     const handleResize = () => {
       setIsMobile(window.innerWidth < 645);
     }
+    handleResize()
     window.addEventListener("resize", handleResize);
 
     // Cleanup when the component unmounts
